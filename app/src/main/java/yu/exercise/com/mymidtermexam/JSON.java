@@ -22,7 +22,6 @@ public class JSON extends AppCompatActivity {
     public static final String BASE_URL = "http://172.17.3.51:5856/api/books";
     public static final int SUCCESS_CODE = 200;
 
-    public final static int GET = 1;
 
     public static MainActivity getBook(Uri uri, @NonNull String requestMethod) {
         String json = HttpUtils.getResponse(uri, requestMethod);
